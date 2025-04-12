@@ -64,7 +64,7 @@ print("Exercise 2:", combine_foods())
 
 def slice_foods():
     # your code here
-    foods = ("pizza", "burger", "pasta")
+    foods = ("Pizza", "Sushi", "Pasta")
 
     last_two_foods = foods[1:] 
     return last_two_foods
