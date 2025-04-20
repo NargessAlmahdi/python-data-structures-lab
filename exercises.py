@@ -107,11 +107,17 @@ print('Exercise 4:', hometown_info())
 
 def list_home_town_items():
     # your code here
-        home_town = {
+    home_town = {
         "city": "London",
         "state": "England",
         "population": "2002"
     }
+    
+    home_town_items = []
+
+    for key, val in home_town.items():
+        home_town_items.append(f'{key} = {val}')
+
 
     # home_town_items = [] 
 
